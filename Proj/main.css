@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+
+ background: rgb(82, 121, 72);
+ background-position: center;
+font-family: "Jost",sans-serif;
+}
+
+.navbar{
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596));
+  font-family: "Jost",sans-serif;
+  width:100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin-top: -800px;
+  height: 100px;
+}
+.logo{
+
+  width: 100px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  
+  font-weight: bold;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #036e15;
+  position: absolute;
+  left: 0;
+  bottom: -5px; 
+  transition: 0.3s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+} 
+
+
+
+.tarsier {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.719)), url('Pictures/tarsier.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+  }
+
+  .overlap{
+
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+  .sqaure {
+    border-radius: 5%;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+  }
+
+
+
+  .introduction{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-left:1px;
+    background-image: linear-gradient(to bottom right,  rgb(53, 107, 55), rgb(21, 100, 25));
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+
+  p1{
+    text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  }
+  p2{
+   
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+p3{
+font-family: "Outfit", sans-serif;
+font-size: 1.2rem;
+color: rgb(255, 255, 255);
+}
+p4{
+    display: flex;
+  font-family: "Jost",sans-serif;
+  font-size: 7vw;
+  margin-top:430px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+p5{
+font-family: "Outfit", sans-serif;
+font-size: 2.5vw;
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
+
+.title{
+  margin: auto;
+  width: 100%;
+  height: 2%;
+  margin-left:1px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+p6{
+  font-family: "Outfit", sans-serif;
+  font-size: 53px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.eagle{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+
+  
+}
+
+p7{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  
+}
+p8{
+    text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+ 
+  
+}
+.tamaraw{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text1{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+
+p11{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p12{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+}
+
+.crocodile{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text2{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+
+p13{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p14{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.walden{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text3{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+
+p15{
+ 
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p16{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.coral{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text4{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+
+p17{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p18{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.pig{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text5{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+
+p19{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p20{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.tarsier1{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text6{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+p21{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p22{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.turtle{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  margin-bottom:50px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+}
+.text7{
+  padding: 40px 20px;
+  height: auto;
+  text-align: center;
+}
+p23{
+  
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+p24{
+  text-align: center;
+  font-family:"Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.bird{
+  margin: auto;
+  width: 90%;
+  height: 8%;
+  margin-top:20px;
+  background-image: linear-gradient(to bottom right, rgb(143, 177, 63), rgb(7, 102, 31));
+  overflow: auto;
+  border-radius: 3%;
+  margin-bottom:20px;
+}
+.text6{
+  padding: 50px 30px;
+  height: auto;
+  text-align: center;
+}
+
+p25{
+  font-family: "Outfit", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+p26{
+  text-align: center;
+  font-family:"Outfit", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.buttons{
+  padding: 30px;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 43%;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+footer{
+  background-color: rgb(36, 58, 29);
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content:  center;
+}
+.socialIcons a{
+  text-decoration: none;
+ padding: 15px;
+ background-color: white;
+ margin: 20px;
+ border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.footerBottom{
+  background-color: rgb(36, 58, 29);
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 1920px) {
+ body{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  button{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  } 
+  .tarsier{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .title{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .eagle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .tamaraw{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .crocodile{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .coral{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .pig{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .tarsier1{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .turtle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+}
+
+
+@media (max-width: 1366px) {
+  body{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  button{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  } 
+  .tarsier{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .title{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .eagle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .tamaraw{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .crocodile{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .coral{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .pig{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .tarsier1{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .turtle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  body{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  button{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  } 
+  .tarsier{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .title{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .eagle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .tamaraw{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .crocodile{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .coral{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .pig{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .tarsier1{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .turtle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  body{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  button{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  } 
+  .tarsier{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .title{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .eagle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .tamaraw{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .crocodile{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .coral{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .pig{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .tarsier1{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .turtle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 1600px) {
+  body{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  button{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  } 
+  .tarsier{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .title{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .eagle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .tamaraw{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .crocodile{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .coral{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .pig{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .tarsier1{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .turtle{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+  .bird{
+    font-size: 1rem;
+    flex: 0 1 auto;
+  }
+}

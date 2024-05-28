@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+background: rgb(82, 121, 72);
+background-position: center;
+font-family: "Jost",sans-serif;
+}
+
+.navbar{
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596));
+  font-family: "Jost",sans-serif;
+  width:100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin-top: -150px;
+  height: 100px;
+}
+.logo{
+
+  width: 100px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  
+  font-weight: bold;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #036e15;
+  position: absolute;
+  left: 0;
+  bottom: -5px; 
+  transition: 0.3s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+H2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 30px -20px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.about{
+    margin: auto;
+    width: 80%;
+    height: 30rem;
+    margin-top:150px;
+    background-image: linear-gradient(to bottom right, rgb(218, 226, 212), rgb(44, 136, 52));
+    overflow: scroll;
+    border-radius: 3%;
+    box-shadow: 0px 0px 50px rgba(71, 53, 26, 0.63);
+    transition: 0.3s ease;
+    margin-bottom:70px;
+  }
+  .info{
+    width: 100%;
+    height: 20%;
+    padding: 40px;
+    font-family: "Outfit", sans-serif;
+  }
+  .info H2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 30px -20px;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .info h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 30px -20px;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+  .info p{
+    font-size: 17px;
+    color: white;
+    margin: 30px -20px;
+    text-align: center;
+    margin-top: 10px;
+
+  }
+ .social-media{
+    margin-top: 60px;
+
+ }
+
+ .social-media i{
+     font-size: 4rem;
+    color: white;
+    margin: 0 -60px;
+    margin-left: 17%;
+ }
+
+ footer{
+   
+  background-color: rgb(36, 58, 29);
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content:  center;
+}
+.socialIcons a{
+  text-decoration: none;
+ padding: 15px;
+ background-color: white;
+ margin: 20px;
+ border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.footerBottom{
+  background-color: rgb(36, 58, 29);
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+
+ 
